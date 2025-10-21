@@ -1,4 +1,6 @@
 import "@/styles/globals.css";
+// Initialize Sentry on the client
+import "../sentry.client";
 import type { AppProps } from "next/app";
 import { ApolloProvider } from "@apollo/client/react";
 import client from "@/graphql/apolloClient";
